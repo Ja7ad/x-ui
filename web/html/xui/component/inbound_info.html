@@ -42,9 +42,9 @@
 
 {{define "component/inboundInfoComponent"}}
 <div>
-    <p>协议: <a-tag color="green">[[ dbInbound.protocol ]]</a-tag></p>
-    <p>地址: <a-tag color="blue">[[ dbInbound.address ]]</a-tag></p>
-    <p>端口: <a-tag color="green">[[ dbInbound.port ]]</a-tag></p>
+    <p>protocol: <a-tag color="green">[[ dbInbound.protocol ]]</a-tag></p>
+    <p>address: <a-tag color="blue">[[ dbInbound.address ]]</a-tag></p>
+    <p>port: <a-tag color="green">[[ dbInbound.port ]]</a-tag></p>
 
     <template v-if="dbInbound.isVMess">
         <p>uuid: <a-tag color="green">[[ inbound.uuid ]]</a-tag></p>
